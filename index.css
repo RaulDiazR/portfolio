@@ -489,6 +489,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image-box {
+    display: flex;
+    justify-content: center;
     margin-bottom: var(--gutter-normal);
 }
 
@@ -550,6 +552,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
+    padding: 40px
 }
 
 @media(min-width: 901px) {
